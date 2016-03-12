@@ -1,0 +1,15 @@
+body {
+    padding: 5px;
+    margin:0 auto;
+    width:1024px;
+    font-family: 'Liberation Serif';
+}
+
+form {
+    padding:10px;
+    border-radius: 10px;
+    border: solid darkcyan;
+    background-color: #f0e68c;
+    margin:auto;
+    width:300px;
+}
