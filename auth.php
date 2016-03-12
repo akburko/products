@@ -22,6 +22,7 @@ $user = new User($login,$pass);
 
 if ($user->status==7) {
     // Пользователь успешно авторизован
+    // Добавить запуск сессии и установки user_id
     header('Location: products.php');
     exit;
 } else {
